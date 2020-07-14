@@ -7,8 +7,9 @@ module.exports = {
   module: {
     rules: [
       {
-        test: /\.tsx?$/,
+        test: /\.(ts|tsx)?$/,
         loader: '@ts-tools/webpack-loader',
+        exclude: /node_modules/,
       },
       {
         test: /\.css$/,
@@ -22,7 +23,11 @@ module.exports = {
   },
   resolve: {
     extensions: ['.ts', '.tsx', '.mjs', '.js', '.json'],
-    plugins: [new TsconfigPathsPlugin({ configFile: require.resolve('./tsconfig.json') })],
+    plugins: [
+      new TsconfigPathsPlugin({
+        configFile: require.resolve('./tsconfig.json'),
+      }),
+    ],
   },
   plugins: [
     new MiniCssExtractPlugin({

@@ -1,5 +1,5 @@
 {
-  "name": "@sample/app",
+  "name": "@axiomatic/playground",
   "version": "1.0.0",
   "main": "cjs/index.js",
   "types": "cjs/index.d.ts",
@@ -11,7 +11,7 @@
     "build:umd": "yarn bundle:prod",
     "bundle:prod": "webpack --mode production",
     "bundle:dev": "webpack --mode development --devtool source-map",
-    "test": "mocha \"test/**/*.spec.ts?(x)\"",
+    "test": "echo \"yum\"",
     "start": "webpack-dev-server --mode development --progress --open",
     "prepack": "yarn build"
   },
@@ -20,8 +20,7 @@
     "react-dom": ">=16"
   },
   "dependencies": {
-    "@sample/components": "^1.0.0",
-    "sanitize.css": "^11.0.1"
+    "@axiomatic/primitives": "^1.0.0"
   },
   "files": [
     "cjs",
@@ -29,7 +28,7 @@
     "src"
   ],
   "license": "MIT",
-  "repository": "git@github.com:wixplosives/sample.git",
+  "repository": "git@github.com:cwlsn/axiomatic-next.git",
   "private": true,
   "publishConfig": {
     "access": "public"
