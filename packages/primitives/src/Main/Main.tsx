@@ -8,7 +8,7 @@ interface MainProps {
 function Main({ text }: MainProps): JSX.Element {
   return (
     <main>
-      <Heading is="h4">heyoooo</Heading>
+      <Heading>heyoooo</Heading>
       <Text>{text}</Text>
     </main>
   );
