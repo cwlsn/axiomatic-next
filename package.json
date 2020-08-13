@@ -14,7 +14,7 @@
     "start": "yarn start:playground",
     "start:playground": "yarn workspace @axiomatic/playground start",
     "typecheck": "tsc --skipLibCheck --noEmit",
-    "format": "prettier \"./**/*.{s,ts,tsx}\" --write"
+    "format": "prettier \"./**/*.{js,ts,tsx}\" --write"
   },
   "lint-staged": {
     "**/*.+(js|ts|tsx|json|md)": [
@@ -56,5 +56,6 @@
     "webpack-dev-server": "^3.11.0"
   },
   "private": true,
+  "publishConfig": { "registry": "https://npm.pkg.github.com/" },
   "dependencies": {}
 }
