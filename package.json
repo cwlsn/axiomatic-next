@@ -56,6 +56,8 @@
     "webpack-dev-server": "^3.11.0"
   },
   "private": true,
-  "publishConfig": { "registry": "https://npm.pkg.github.com/" },
+  "publishConfig": {
+    "registry": "https://npm.pkg.github.com/"
+  },
   "dependencies": {}
 }
