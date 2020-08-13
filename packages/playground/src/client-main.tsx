@@ -4,9 +4,10 @@ import { App } from './app';
 
 const rootContainerId = 'SITE_MAIN';
 
-const container = document.getElementById(rootContainerId) ?? createContainer(document.body);
+const container =
+  document.getElementById(rootContainerId) ?? createContainer(document.body);
 
-render(<App text="Hello World (client-only)" />, container);
+render(<App />, container);
 
 function createContainer(targetParent: Element) {
   const newContainer = document.createElement('div');

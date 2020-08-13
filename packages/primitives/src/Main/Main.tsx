@@ -1,9 +1,17 @@
 import React from 'react';
+import { Heading, Text } from '../';
 
-export interface MainProps {
+interface MainProps {
   text: string;
 }
 
-export function Main({ text }: MainProps): JSX.Element {
-  return <main>{text} cats</main>;
+function Main({ text }: MainProps): JSX.Element {
+  return (
+    <main>
+      <Heading is="h4">heyoooo</Heading>
+      <Text>{text}</Text>
+    </main>
+  );
 }
+
+export { Main, MainProps };

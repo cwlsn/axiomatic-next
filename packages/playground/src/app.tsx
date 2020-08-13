@@ -1,10 +1,15 @@
 import React from 'react';
-import { Main } from '@axiomatic/primitives';
+import { theme, GlobalStyle, ThemeProvider } from '@axiomatic/themes';
+import { Main, Box, Heading } from '@axiomatic/primitives';
 
-export interface AppProps {
-  text: string;
-}
-
-export function App({ text }: AppProps): JSX.Element {
-  return <Main text={text} />;
+export function App(): JSX.Element {
+  return (
+    <ThemeProvider theme={theme}>
+      <GlobalStyle />
+      <Box>
+        <Main text="woooop" />
+        <Heading>Whale?</Heading>
+      </Box>
+    </ThemeProvider>
+  );
 }
