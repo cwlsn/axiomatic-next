@@ -1,14 +1,13 @@
 import React from 'react';
+import { Text as RebassText, TextProps as RebassTextProps } from 'rebass';
 
-import { Text as RebassText } from 'rebass';
-
-interface TextProps {
+interface TextProps extends RebassTextProps {
   children: React.ReactNode;
 }
 
-function Text({ children }: TextProps): JSX.Element {
+function Text({ children, ...props }: TextProps): JSX.Element {
   return (
-    <RebassText as="p" fontFamily="body">
+    <RebassText as="p" fontFamily="body" color="gray.7" {...props}>
       {children}
     </RebassText>
   );

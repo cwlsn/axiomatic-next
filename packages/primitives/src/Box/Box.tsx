@@ -1,16 +1,12 @@
 import React from 'react';
-import { Box as RebassBox } from 'rebass';
+import { Box as RebassBox, BoxProps as RebassBoxProps } from 'rebass';
 
-interface BoxProps {
+interface BoxProps extends RebassBoxProps {
   children: React.ReactNode;
 }
 
-function Box({ children }: BoxProps): JSX.Element {
-  return (
-    <RebassBox padding={2} margin={3}>
-      {children}
-    </RebassBox>
-  );
+function Box({ children, ...props }: BoxProps): JSX.Element {
+  return <RebassBox {...props}>{children}</RebassBox>;
 }
 
 export { Box, BoxProps };

@@ -1,13 +1,15 @@
 import React from 'react';
+import {
+  Heading as RebassHeading,
+  HeadingProps as RebassHeadingProps,
+} from 'rebass';
 
-import { Heading as RebassHeading } from 'rebass';
-
-interface HeadingProps {
+interface HeadingProps extends RebassHeadingProps {
   children: React.ReactNode;
 }
 
-function Heading({ children }: HeadingProps): JSX.Element {
-  return <RebassHeading>{children}</RebassHeading>;
+function Heading({ children, ...props }: HeadingProps): JSX.Element {
+  return <RebassHeading {...props}>{children}</RebassHeading>;
 }
 
 export { Heading, HeadingProps };
