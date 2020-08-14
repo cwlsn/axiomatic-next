@@ -25,5 +25,8 @@
   "private": true,
   "publishConfig": {
     "access": "public"
+  },
+  "dependencies": {
+    "@axiomatic/themes": "^1.0.0"
   }
 }

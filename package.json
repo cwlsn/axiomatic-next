@@ -17,11 +17,12 @@
     "format": "prettier \"./**/*.{js,ts,tsx}\" --write"
   },
   "lint-staged": {
-    "**/*.+(js|ts|tsx|json|md)": [
+    "**/*.+(js|ts|tsx|json|md|mdx)": [
       "yarn format"
     ]
   },
   "devDependencies": {
+    "@babel/core": "^7.11.1",
     "@ts-tools/build": "^1.2.6",
     "@ts-tools/webpack-loader": "^1.1.4",
     "@types/react": "^16.9.41",
@@ -31,6 +32,7 @@
     "@types/styled-system": "^5.1.10",
     "@typescript-eslint/eslint-plugin": "^3.6.0",
     "@typescript-eslint/parser": "^3.6.0",
+    "babel-loader": "^8.1.0",
     "css-loader": "^3.6.0",
     "emotion-theming": "^10.0.27",
     "eslint": "^7.4.0",
@@ -44,11 +46,13 @@
     "lerna": "^3.22.1",
     "mini-css-extract-plugin": "^0.9.0",
     "prettier": "^2.0.5",
-    "react": "^17.0.0-rc.0",
-    "react-dom": "^17.0.0-rc.0",
+    "react": "^16.13.1",
+    "react-dom": "^16.13.1",
+    "react-is": "^16.13.1",
     "rebass": "^4.0.7",
     "rimraf": "^3.0.2",
     "styled-components": "^5.1.1",
+    "styled-reset": "^4.2.2",
     "tsconfig-paths": "^3.9.0",
     "tsconfig-paths-webpack-plugin": "^3.2.0",
     "typescript": "~3.9.6",
@@ -57,10 +61,5 @@
     "webpack-dev-server": "^3.11.0"
   },
   "private": true,
-  "publishConfig": {
-    "registry": "https://npm.pkg.github.com/"
-  },
-  "dependencies": {
-    "styled-reset": "^4.2.2"
-  }
+  "dependencies": {}
 }
