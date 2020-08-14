@@ -7,14 +7,7 @@ interface TextProps extends RebassTextProps {
 
 function Text({ children, ...props }: TextProps): JSX.Element {
   return (
-    <RebassText
-      as="p"
-      fontFamily="body"
-      lineHeight="body"
-      color="gray.7"
-      marginBottom={2}
-      {...props}
-    >
+    <RebassText as="p" variant="display" {...props}>
       {children}
     </RebassText>
   );

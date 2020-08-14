@@ -1,9 +1,11 @@
 export const colors = {
   black: '#1b1f23',
   white: '#fff',
-  primary: '#007A54',
+  primary: '#0198E1',
+  primaryDark: '#0075AD',
   secondary: '#FF8188',
-  gray: [
+  gray: '#444d56',
+  grays: [
     '#fafbfc',
     '#f6f8fa',
     '#e1e4e8',
@@ -15,7 +17,8 @@ export const colors = {
     '#2f363d',
     '#24292e',
   ],
-  blue: [
+  blue: '#044289',
+  blues: [
     '#f1f8ff',
     '#dbedff',
     '#c8e1ff',
@@ -27,7 +30,8 @@ export const colors = {
     '#032f62',
     '#05264c',
   ],
-  green: [
+  green: '#176f2c',
+  greens: [
     '#f0fff4',
     '#dcffe4',
     '#bef5cb',
@@ -39,7 +43,8 @@ export const colors = {
     '#165c26',
     '#144620',
   ],
-  yellow: [
+  yellow: '#dbab09',
+  yellows: [
     '#fffdef',
     '#fffbdd',
     '#fff5b1',
@@ -51,7 +56,8 @@ export const colors = {
     '#b08800',
     '#735c0f',
   ],
-  orange: [
+  orange: '#d15704',
+  oranges: [
     '#fff8f2',
     '#ffebda',
     '#ffd1ac',
@@ -63,7 +69,8 @@ export const colors = {
     '#c24e00',
     '#a04100',
   ],
-  red: [
+  red: '#b31d28',
+  reds: [
     '#ffeef0',
     '#ffdce0',
     '#fdaeb7',
@@ -75,7 +82,8 @@ export const colors = {
     '#9e1c23',
     '#86181d',
   ],
-  purple: [
+  purple: '#4c2889',
+  purples: [
     '#f5f0ff',
     '#e6dcfd',
     '#d1bcf9',
@@ -87,7 +95,8 @@ export const colors = {
     '#3a1d6e',
     '#29134e',
   ],
-  pink: [
+  pink: '#b93a86',
+  pinks: [
     '#ffeef8',
     '#fedbf0',
     '#f9b3dd',

@@ -9,7 +9,11 @@ interface ButtonProps extends RebassButtonProps {
 }
 
 function Button({ children, ...props }: ButtonProps): JSX.Element {
-  return <RebassButton {...props}>{children}</RebassButton>;
+  return (
+    <RebassButton sx={{ cursor: 'pointer' }} {...props}>
+      {children}
+    </RebassButton>
+  );
 }
 
 export { Button, ButtonProps };

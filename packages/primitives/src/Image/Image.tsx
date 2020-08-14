@@ -1,12 +1,10 @@
 import React from 'react';
-import { Image as RebassImage, ImageProps as RebassImageProps } from 'rebass';
+import { Image as RebassImage, ImageProps } from 'rebass';
 
-interface ImageProps extends RebassImageProps {
-  children: React.ReactNode;
-}
+// interface ImageProps extends RebassImageProps {}
 
-function Image({ children, ...props }: ImageProps): JSX.Element {
-  return <RebassImage {...props}>{children}</RebassImage>;
+function Image({ ...props }: ImageProps): JSX.Element {
+  return <RebassImage {...props} />;
 }
 
 export { Image, ImageProps };

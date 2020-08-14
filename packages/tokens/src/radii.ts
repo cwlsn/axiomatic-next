@@ -1,4 +1,4 @@
 export const radii = {
-  default: 4,
+  default: 6,
   circle: 99999,
 };

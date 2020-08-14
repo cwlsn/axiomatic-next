@@ -2,7 +2,7 @@ import React from 'react';
 import { Box as RebassBox, BoxProps as RebassBoxProps } from 'rebass';
 
 interface BoxProps extends RebassBoxProps {
-  children: React.ReactNode;
+  children?: React.ReactNode;
 }
 
 function Box({ children, ...props }: BoxProps): JSX.Element {

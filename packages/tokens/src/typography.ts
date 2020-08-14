@@ -1,5 +1,5 @@
 export const typography = {
-  fontSizes: [12, 14, 16, 20, 24, 32, 40, 48],
+  fontSizes: [14, 16, 18, 24, 32, 40, 48, 64],
   lineHeights: {
     body: 1.5,
     heading: 1.25,

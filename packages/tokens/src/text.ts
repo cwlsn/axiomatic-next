@@ -5,16 +5,23 @@ export const text = {
     marginBottom: 3,
   },
   subtitle: {
-    color: 'gray.5',
+    color: 'primaryDark',
     fontSize: 4,
     marginBottom: 2,
   },
   eyebrow: {
     textTransform: 'uppercase',
-    color: 'gray.4',
+    color: 'grays.4',
     fontSize: 2,
     marginBottom: 0,
     letterSpacing: 0.8,
     fontFamily: 'body',
+  },
+  display: {
+    fontSize: 2,
+    lineHeight: 'body',
+    fontFamily: 'body',
+    color: 'grays.6',
+    marginBottom: 4,
   },
 };
