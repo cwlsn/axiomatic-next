@@ -2,10 +2,13 @@ import { createGlobalStyle } from 'styled-components';
 import { ThemeProvider } from 'emotion-theming';
 import reset from 'styled-reset';
 import {
+  borders,
+  buttons,
   colors,
   radii,
   shadows,
   spacing as space,
+  text,
   typography,
   variants,
 } from '@axiomatic/tokens';
@@ -13,6 +16,8 @@ import {
 const { fonts, fontSizes, fontWeights, lineHeights } = typography;
 
 const theme = {
+  borders,
+  buttons,
   colors,
   radii,
   shadows,
@@ -21,6 +26,7 @@ const theme = {
   fontSizes,
   fontWeights,
   lineHeights,
+  text,
   variants,
 };
 

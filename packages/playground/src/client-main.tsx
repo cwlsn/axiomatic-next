@@ -2,7 +2,7 @@ import React from 'react';
 import { render } from 'react-dom';
 import { App } from './app';
 
-const rootContainerId = 'SITE_MAIN';
+const rootContainerId = 'axiomatic-playground';
 
 const container =
   document.getElementById(rootContainerId) ?? createContainer(document.body);
