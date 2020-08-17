@@ -9,9 +9,7 @@
     "prebuild": "yarn clean",
     "build": "ts-build ./src --cjs --esm",
     "test": "echo \"yum\"",
-    "prepack": "yarn build",
-    "storybook": "start-storybook -p 6006",
-    "build-storybook": "build-storybook"
+    "prepack": "yarn build"
   },
   "peerDependencies": {
     "react": ">=16"
@@ -29,16 +27,9 @@
     "access": "public"
   },
   "dependencies": {
-    "@axiomatic/themes": "^1.0.2",
-    "@axiomatic/tokens": "^1.0.2"
+    "rebass": "^4.0.7"
   },
   "devDependencies": {
-    "@babel/core": "^7.11.1",
-    "@storybook/addon-actions": "^6.0.7",
-    "@storybook/addon-essentials": "^6.0.7",
-    "@storybook/addon-links": "^6.0.7",
-    "@storybook/react": "^6.0.7",
-    "babel-loader": "^8.1.0",
-    "react-is": "^16.13.1"
+    "@types/rebass": "^4.0.6"
   }
 }
