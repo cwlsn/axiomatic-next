@@ -25,5 +25,14 @@
   "private": false,
   "publishConfig": {
     "access": "public"
+  },
+  "dependencies": {
+    "@axiomatic/tokens": "^1.0.2",
+    "emotion-theming": "^10.0.27",
+    "styled-components": "^5.1.1",
+    "styled-reset": "^4.2.2"
+  },
+  "devDependencies": {
+    "@types/styled-components": "^5.1.2"
   }
 }
