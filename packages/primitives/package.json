@@ -24,7 +24,7 @@
   "license": "MIT",
   "repository": "git@github.com:cwlsn/axiomatic-next.git",
   "sideEffects": false,
-  "private": true,
+  "private": false,
   "publishConfig": {
     "access": "public"
   },
