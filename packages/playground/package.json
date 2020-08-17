@@ -1,6 +1,6 @@
 {
   "name": "@axiomatic/playground",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "main": "cjs/index.js",
   "types": "cjs/index.d.ts",
   "scripts": {
@@ -21,7 +21,7 @@
   },
   "dependencies": {
     "@axiomatic/primitives": "^1.0.3",
-    "@axiomatic/themes": "^1.0.2",
+    "@axiomatic/themes": "^1.0.3",
     "@axiomatic/tokens": "^1.0.2"
   },
   "files": [

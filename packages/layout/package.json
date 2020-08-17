@@ -1,6 +1,6 @@
 {
   "name": "@axiomatic/layout",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "main": "cjs/index.js",
   "module": "esm/index.js",
   "types": "esm/index.d.ts",
@@ -27,7 +27,7 @@
     "access": "public"
   },
   "dependencies": {
-    "@axiomatic/themes": "^1.0.2",
+    "@axiomatic/themes": "^1.0.3",
     "@axiomatic/tokens": "^1.0.2"
   }
 }
