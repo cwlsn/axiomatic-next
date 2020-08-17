@@ -3,15 +3,16 @@ import { ThemeProvider } from 'emotion-theming';
 import reset from 'styled-reset';
 import {
   borders,
-  buttons,
   colors,
   radii,
   shadows,
   spacing as space,
-  text,
   typography,
-  variants,
 } from '@axiomatic/tokens';
+
+import { text } from './text';
+import { buttons } from './buttons';
+import { variants } from './variants';
 
 const { fonts, fontSizes, fontWeights, lineHeights } = typography;
 

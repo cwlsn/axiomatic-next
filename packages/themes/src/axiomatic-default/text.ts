@@ -24,4 +24,10 @@ export const text = {
     color: 'grays.6',
     marginBottom: 4,
   },
+  wordmark: {
+    fontSize: 3,
+    fontWeight: 'bold',
+    fontFamily: 'heading',
+    color: 'primaryDark',
+  },
 };
