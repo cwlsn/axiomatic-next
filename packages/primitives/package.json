@@ -1,6 +1,6 @@
 {
   "name": "@axiomatic/primitives",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "main": "cjs/index.js",
   "module": "esm/index.js",
   "types": "esm/index.d.ts",
@@ -29,8 +29,8 @@
     "access": "public"
   },
   "dependencies": {
-    "@axiomatic/themes": "^1.0.1",
-    "@axiomatic/tokens": "^1.0.1"
+    "@axiomatic/themes": "^1.0.2",
+    "@axiomatic/tokens": "^1.0.2"
   },
   "devDependencies": {
     "@babel/core": "^7.11.1",
