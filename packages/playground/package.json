@@ -1,6 +1,6 @@
 {
   "name": "@axiomatic/playground",
-  "version": "1.0.5",
+  "version": "1.0.6",
   "main": "cjs/index.js",
   "types": "cjs/index.d.ts",
   "scripts": {
@@ -20,10 +20,10 @@
     "react-dom": ">=16"
   },
   "dependencies": {
-    "@axiomatic/elements": "^1.0.4",
-    "@axiomatic/layout": "^1.0.5",
-    "@axiomatic/primitives": "^1.0.4",
-    "@axiomatic/themes": "^1.0.4"
+    "@axiomatic/elements": "^1.0.5",
+    "@axiomatic/layout": "^1.0.6",
+    "@axiomatic/primitives": "^1.0.5",
+    "@axiomatic/themes": "^1.0.5"
   },
   "files": [
     "cjs",
