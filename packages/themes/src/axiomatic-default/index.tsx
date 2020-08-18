@@ -1,6 +1,8 @@
+import React from 'react';
 import { createGlobalStyle } from 'styled-components';
 import { ThemeProvider } from 'emotion-theming';
 import reset from 'styled-reset';
+import { Helmet } from 'react-helmet';
 import {
   borders,
   colors,
@@ -31,9 +33,22 @@ const theme = {
   variants,
 };
 
-const GlobalStyle = createGlobalStyle`
-    @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&family=Volkhov:ital,wght@0,400;0,700;1,700&display=swap');
+const StyleReset = createGlobalStyle`
     ${reset}
 `;
+
+function GlobalStyle(): JSX.Element {
+  return (
+    <>
+      <Helmet>
+        <link
+          rel="stylesheet"
+          href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&family=Volkhov:ital,wght@0,400;0,700;1,700&display=swap"
+        />
+      </Helmet>
+      <StyleReset />
+    </>
+  );
+}
 
 export { theme, GlobalStyle, ThemeProvider };
