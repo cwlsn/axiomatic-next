@@ -27,8 +27,6 @@
     "access": "public"
   },
   "dependencies": {
-    "@axiomatic/primitives": "^1.0.3",
-    "@axiomatic/themes": "^1.0.3",
-    "@axiomatic/tokens": "^1.0.2"
+    "@axiomatic/primitives": "^1.0.3"
   }
 }
