@@ -6,7 +6,7 @@ interface FlowProps extends FlexProps {
   gap?: number;
 }
 
-function Flow({ children, gap, ...props }: FlowProps): JSX.Element {
+function Flow({ children, gap, sx, ...props }: FlowProps): JSX.Element {
   return (
     <Flex
       flexDirection="row"
@@ -14,6 +14,7 @@ function Flow({ children, gap, ...props }: FlowProps): JSX.Element {
       sx={{
         display: 'grid',
         gridGap: gap,
+        ...sx,
       }}
     >
       {children}

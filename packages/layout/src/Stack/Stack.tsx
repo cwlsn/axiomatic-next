@@ -6,12 +6,12 @@ interface StackProps extends FlexProps {
   gap?: number;
 }
 
-function Stack({ children, gap, ...props }: StackProps): JSX.Element {
+function Stack({ children, gap, sx, ...props }: StackProps): JSX.Element {
   return (
     <Flex
       flexDirection="column"
       {...props}
-      sx={{ display: 'grid', gridGap: gap }}
+      sx={{ display: 'grid', gridGap: gap, ...sx }}
     >
       {children}
     </Flex>
